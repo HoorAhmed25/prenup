@@ -1,0 +1,44 @@
+@page{
+   
+    margin: 0;
+}
+@media print{
+    .dropdown{
+         display: none;
+    }
+    nav{
+        visibility: hidden;
+    }
+    nav img{
+         visibility: hidden;      
+    }
+   
+    nav h6{
+        visibility: hidden;
+    }
+    nav div{
+         visibility: hidden;
+    }
+    nav a{
+        visibility: hidden;
+    }
+   
+    #print-button{
+        display: none;
+    }
+    .backButton{
+         display: none;
+    }
+    .pic{
+       display: block;
+    }
+    #edit-button{
+        display: none;
+    }
+    h4 .headOfMarriage{
+        color:black;
+        border: 2px solid black;
+    }
+    
+   
+}
